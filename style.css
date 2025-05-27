@@ -1,0 +1,227 @@
+/* .br {
+    border: 2px solid red;
+}
+
+.bm {
+    border: 2px solid magenta;
+}
+
+.bg {
+    border: 2px solid gold;
+}
+
+.bb {
+    border: 2px solid blue;
+} */
+
+.navbar {
+    background-color: #0A192F;
+
+    width: 100% !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    transition: .3s all linear;
+}
+
+.navbar-nav li a:hover {
+    color: #0077CC !important;
+    transition: .3s all linear;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+.first-main-sec {
+    min-height: 700px;
+    background-color: #0A192F;
+}
+
+.first-data-1 {
+    height: 350px;
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #d6dadff3;
+}
+
+.profile-div {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid #0A192F;
+    background-color: #d6dadff3;
+    position: absolute;
+    top: 20%;
+    overflow: hidden;
+    animation-name: ani;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.profile-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+    bottom: 0;
+    position: absolute;
+}
+
+.first-data-2 {
+    height: 350px;
+
+}
+
+.first-data-2 a {
+    transition: .3s all linear;
+    text-underline-offset: 2px;
+
+}
+
+.first-data-2 a:hover {
+    color: #0077CC !important;
+    transition: .3s all linear;
+}
+
+.second-main-sec {
+    min-height: auto;
+    background-color: white;
+    color: black;
+}
+
+.second-data-sec {
+    min-height: auto;
+}
+
+.first-card {
+    height: 470px;
+}
+
+.first-inner-card {
+    width: 90%;
+    height: 90%;
+    background-color: #0A192F;
+    text-align: start;
+    color: white;
+}
+
+.img-sec {
+    height: 100px !important;
+    background-color: #0A192F;
+}
+
+.img-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.first-inner-card button {
+    transition: .3s all linear;
+    border-radius: 25px;
+}
+
+.first-inner-card button:hover {
+    background-color: #0A192F;
+    color: white;
+    transition: .3s all linear;
+    border: 2px solid white;
+}
+
+.third-main-sec {
+    min-height: auto;
+    background-color: #0A192F;
+}
+
+.third-data-sec {
+    min-height: auto;
+}
+
+.third-left {
+    min-height: auto;
+}
+
+.third-right {
+    min-height: auto;
+}
+
+.third-left p {
+    width: 95%;
+}
+
+.personal-details {
+    height: 250px;
+}
+
+.icon-con img {
+    height: 25px;
+}
+
+.form-sec {
+    width: 80%;
+    height: 90%;
+    border-radius: 25px;
+}
+
+.name-div {
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #0A192F;
+}
+
+.name-div input {
+    width: 100%;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.name-div input::placeholder {
+    color: #0A192F;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #0A192F;
+}
+
+textarea::placeholder {
+    color: #0A192F;
+    font-size: 15px;
+}
+
+
+.form-sec button {
+    width: 80%;
+    height: 40px;
+    background-color: #0A192F;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    transition: .3s all linear;
+
+}
+
+.form-sec button:hover {
+    background-color: white;
+    color: #0A192F;
+    transition: .3s all linear;
+}
